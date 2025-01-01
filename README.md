@@ -4,14 +4,6 @@ SEG-Y Parser is a Rust-based tool designed to parse and analyze SEG-Y seismic da
 
 
 
-## Prerequisites
-
-- Rust programming language (version 1.70 or later).
-
-Install Rust using [rustup](https://rustup.rs/):
-```bash
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-```
 
 
 
