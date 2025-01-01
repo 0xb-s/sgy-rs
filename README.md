@@ -6,7 +6,23 @@ SEG-Y Parser is a Rust-based tool designed to parse and analyze SEG-Y seismic da
 
 
 
+## Example usage
 
+```rs
+use sgy_rs::read_segy_from_file;
+use sgy_rs::errors::SegyError;
+
+fn main() -> Result<(), SegyError> {
+ 
+    let path = "";
+
+ 
+    let segy_file = read_segy_from_file(path)?;
+
+  
+    Ok(())
+}
+``` 
 
 ## Contributing
 
